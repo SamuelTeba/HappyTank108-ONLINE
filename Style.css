@@ -1,0 +1,76 @@
+h1{
+padding: 20px;
+text-align: center;
+color: darkorchid;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    padding:30px;
+    text-align: center;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    padding:10px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: limegreen;
+}
+
+nav{
+    padding: 60px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+form{
+    padding: 10px;
+    shape-rendering: inherit;
+    shape-margin: 20px;
+    background-color: cadetblue;
+    text-align: center;
+    bottom: unset;
+    cursor: cell;
+    border-radius: 20px;
+    margin-inline-start: 0%;
+}
+
+button{
+    border-radius: 30px;
+    padding: 60px;
+    scroll-padding: 30px;
+}
+
+.row{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+     .column {
+      flex: 50%;
+      max-width: 50%;
+      @media screen and (max-width: 800px)
